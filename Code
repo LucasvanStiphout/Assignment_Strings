@@ -4,6 +4,8 @@ __human_name__ = 'strings'
 
 # Add your code after this line
 
+#Feedback either in English or Dutch really does not matter
+
 Goal_0_Player = "Ruud Gullit"
 Goal_1_Player = "Marco van Basten"
 
