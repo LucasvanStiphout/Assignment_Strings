@@ -1,0 +1,30 @@
+# Do not modify these lines
+__winc_id__ = '71dd124b4a6e4d268f5973db521394ee'
+__human_name__ = 'strings'
+
+# Add your code after this line
+
+Goal_0_Player = "Ruud Gullit"
+Goal_1_Player = "Marco van Basten"
+
+goal_0 = 32
+goal_1 = 54
+
+scorers = Goal_0_Player + " "+ str(goal_0) + ", " + Goal_1_Player + " " + str(goal_1)
+
+report = f"{Goal_0_Player} scored in the {str(goal_0)}nd minute\n{Goal_1_Player} scored in the {goal_1}th minute" 
+
+player = "Ruud Gullit"
+
+First_name_sliced = player.find(" ")
+first_name = (player[:First_name_sliced])
+
+last_name_len = len(player[First_name_sliced+1:])
+
+name_short = player[0] + "." + player[First_name_sliced:]
+
+chant = (player[0:First_name_sliced] +"! ") * len(player[0:First_name_sliced - 1] ) + player[0:First_name_sliced] +"!"
+print(chant)
+
+good_chant = chant[-0] != " "
+print(good_chant)
